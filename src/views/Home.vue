@@ -10,24 +10,36 @@
           <v-img src="1.png" contain max-height="500"></v-img>
         </v-col>
         <v-col cols="6">
-          <h5 class="red--text text--darken-4 top">Hello Im Orun Sunny</h5>
+          <v-btn class="mt-6" title color="#FF8F00" dark> about me </v-btn>
           <h1 class="white--text">Full-Stack Web Developer</h1>
-          <p class="grey--text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br />
-            Adipisci explicabo, cupiditate necessitatibus iure hic omnis est ab
-            <br />
-            At nihil et temporibus ratione!
-          </p>
-          <v-btn tile color="#A7121D" dark> about me </v-btn>
+          <ul class="about-info white--text font-weight-bold mt-4 px-md-0 px-2">
+								<li class="d-flex"><span>Name:</span><span>Md.Orun Sunny</span></li>
+								<li class="d-flex"><span>Email:</span><span
+										style="">sunny.mukut@gmail.com</span></li>
+								<li class="d-flex"><span>Phone:</span><span>+880-1942257725</span></li>
+								<li class="d-flex"><span>Country:</span> <span>Bangladesh</span></li>
+								<li class="d-flex"><span>City:</span><span>Dhaka</span></li>
+							</ul>
+
+
+              <v-btn class="mt-6" title color="#FF8F00" dark>
+						<div class="text" title color="#FF8F00" >
+							<p  title color="#FF8F00" ><a  title color="#FF8F00" href="https://drive.google.com/file/d/1VhxwpzhQskiJ-9F_KkhzrFy5Or632Kre/view?usp=sharing" target="_blank"
+									class=" py-3 ">Download CV</a></p>
+						</div>
+            </v-btn>
         </v-col>
+
+
+
         <v-col cols="12" class="padd">
           <div class="first" id="project">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3"
+                  <!-- <v-icon color="#A7121D" x-large class="ml-3"
                     >mdi-palette-swatch</v-icon
-                  >
+                  > -->
                   <h3 class="white--text ml-3 mt-4">UI Design</h3>
                   <p class="grey--text ml-3 mt-6">
                     Lorem, ipsum dolor sit amet <br />consectetur adipisicing
@@ -67,6 +79,13 @@
                   </v-btn>
                 </div>
               </v-col>
+              
+
+
+              <!-- Uporer part ses -->
+
+
+
               <v-col cols="12" class="mt-10">
                 <div class="child1">
                   <h1 class="red--text text--darken-4 mt-4 number">12</h1>

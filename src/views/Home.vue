@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-parsing-error -->
 <template>
   <v-app
     id="home"
@@ -13,121 +14,475 @@
           <v-btn class="mt-6" title color="#FF8F00" dark> about me </v-btn>
           <h1 class="white--text">Full-Stack Web Developer</h1>
           <ul class="about-info white--text font-weight-bold mt-4 px-md-0 px-2">
-								<li class="d-flex"><span>Name:</span><span>Md.Orun Sunny</span></li>
-								<li class="d-flex"><span>Email:</span><span
-										style="">sunny.mukut@gmail.com</span></li>
-								<li class="d-flex"><span>Phone:</span><span>+880-1942257725</span></li>
-								<li class="d-flex"><span>Country:</span> <span>Bangladesh</span></li>
-								<li class="d-flex"><span>City:</span><span>Dhaka</span></li>
-							</ul>
+            <li class="d-flex"><span>Name:</span><span>Md.Orun Sunny</span></li>
+            <li class="d-flex">
+              <span>Email:</span><span style="">sunny.mukut@gmail.com</span>
+            </li>
+            <li class="d-flex">
+              <span>Phone:</span><span>+880-1942257725</span>
+            </li>
+            <li class="d-flex">
+              <span>Country:</span> <span>Bangladesh</span>
+            </li>
+            <li class="d-flex"><span>City:</span><span>Dhaka</span></li>
+          </ul>
 
-
-              <v-btn class="mt-6" title color="#FF8F00" dark>
-						<div class="text" title color="#FF8F00" >
-							<p  title color="#FF8F00" ><a  title color="#FF8F00" href="https://drive.google.com/file/d/1VhxwpzhQskiJ-9F_KkhzrFy5Or632Kre/view?usp=sharing" target="_blank"
-									class=" py-3 ">Download CV</a></p>
-						</div>
-            </v-btn>
+          <v-btn class="mt-6" title color="#FF8F00" dark>
+            <div class="text" title color="#FF8F00">
+              <p title color="#FF8F00">
+                <a
+                  title
+                  color="#FF8F00"
+                  href="https://drive.google.com/file/d/1VhxwpzhQskiJ-9F_KkhzrFy5Or632Kre/view?usp=sharing"
+                  target="_blank"
+                  class="py-3"
+                  >Download CV</a
+                >
+              </p>
+            </div>
+          </v-btn>
         </v-col>
-
-
 
         <v-col cols="12" class="padd">
           <div class="first" id="project">
             <v-row>
               <v-col cols="12">
                 <div class="child bgColor1">
-                  <!-- <v-icon color="#A7121D" x-large class="ml-3"
-                    >mdi-palette-swatch</v-icon
-                  > -->
-                  <h3 class="white--text ml-3 mt-4">UI Design</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <v-btn color="#A7121D" dark text>
+                  <h2 class="heading white--text ml-3 mt-4">Education</h2>
+                  >
+                  <div class="resume-wrap d-flex ftco-animate">
+                    <div
+                      class="icon d-flex align-items-center justify-content-center"
+                    >
+                      <span class="flaticon-graduation-cap"></span>
+                    </div>
+                    <div class="text pl-3 white--text">
+                      <h2>University of Asia Pacific</h2>
+                      <span class="position">Bachelor of Science</span>
+                      <p><strong>Computer Science & Engineering</strong></p>
+                      <p>Dhaka -Bangladesh</p>
+                      <span class="date">2018-2021</span>
+                    </div>
+                  </div>
+                  <v-btn color="#FF8F00" dark text>
                     know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
+
                 <div class="child bgColor2">
-                  <v-icon color="" x-large class="ml-3" dark
-                    >mdi-shopping</v-icon
-                  >
-                  <h3 class="white--text ml-3 mt-4">Product Design</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
+                  <div class="text pl-3">
+                    <h2>Chuadanga Govt. College,Chuadanga</h2>
+                    <span class="position">Higher Secondary Certificate</span>
+                    <p><strong>Science </strong></p>
+                    <p>Chuadanga -Bangladesh</p>
+                    <span class="date">2013-2015</span>
+                  </div>
                   <v-btn color="" dark text>
                     know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
                 <div class="child bgColor1">
-                  <v-icon color="#A7121D" x-large class="ml-3"
-                    >mdi-book-open-page-variant</v-icon
-                  >
-                  <h3 class="white--text ml-3 mt-4">Branding</h3>
-                  <p class="grey--text ml-3 mt-6">
-                    Lorem, ipsum dolor sit amet <br />consectetur adipisicing
-                    elit.
-                  </p>
-                  <v-btn color="#A7121D" dark text>
+                  <div class="text pl-3 white--text">
+                    <h2 class="heading white--text mt-4">SSC</h2>
+                    <br />
+                    <h2>V.J Govt high School</h2>
+                    <span class="position">Science</span>
+                    <br />
+                    <span class="position">Basic Science</span>
+
+                    <p>Chuadanga -Bangladesh</p>
+                    <span class="date">2007-2013</span>
+                  </div>
+                  <v-btn color="#FF8F00" dark text>
                     know more
                     <v-icon right>mdi-arrow-right</v-icon>
                   </v-btn>
                 </div>
               </v-col>
-              
-
 
               <!-- Uporer part ses -->
 
-
-
               <v-col cols="12" class="mt-10">
-                <div class="child1">
-                  <h1 class="red--text text--darken-4 mt-4 number">12</h1>
-                  <h3 class="white--text mt-4">Years Experience</h3>
+                <div class="child">
+                  <h1 class="orange--text mt-3">Experience</h1>
+                  <h2 class="cyan--text mt-3">Brain-cache</h2>
+                  <div>
+                    <li class="white--text mt-3">Web-dev</li>
+                    <li class="white--text mt-3">Dec 2018 - 2019</li>
+                  </div>
                 </div>
-                <div class="child2 mRight">
-                  <v-row>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 mButton padding bgColor1">
+                <div class="child">
+                  <h1 class="orange--text mt-3">achievements</h1>
+                  <h2 class="cyan--text mt-3">1st runner up</h2>
+                  <div>
+                    <li class="white--text mt-3">NCPC</li>
+                    <li class="white--text mt-3">Dec 2019</li>
+                  </div>
+                </div>
+
+                <div class="child">
+                  <h1 class="orange--text mt-3">Leadership & Activities</h1>
+
+                  <h2 class="cyan--text mt-3">Software & Hardware Club</h2>
+                  <div>
+                    <li class="white--text mt-3">President</li>
+                    <li class="white--text mt-3">Dec 2018 - 2020</li>
+                  </div>
+                </div>
+
+                <!-- <div class="child2 mButton padding bgColor1">
                         <h1 class="red--text text--darken-4">60+</h1>
                         <p class="grey--text">Clients</p>
-                      </div>
-                    </v-col>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">122+</h1>
-                        <p class="grey--text">Completed Projects</p>
-                      </div>
-                    </v-col>
-                  </v-row>
-                </div>
-                <div class="child2">
-                  <v-row>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 mButton padding bgColor1">
-                        <h1 class="red--text text--darken-4">08</h1>
-                        <p class="grey--text">Years Experience</p>
-                      </div>
-                    </v-col>
-                    <v-col cols="12" class="childcol">
-                      <div class="child2 padding bgColor1">
-                        <h1 class="red--text text--darken-4">10</h1>
-                        <p class="grey--text">Achievements</p>
-                      </div>
-                    </v-col>
-                  </v-row>
-                </div>
+                      </div> -->
               </v-col>
             </v-row>
           </div>
         </v-col>
-        <v-col md="3" offset-md="3" id="about">
+
+        <!-- projects -->
+
+        <section class="ftco-section" id="project-section">
+          <div class="container-fluid px-md-5">
+            <div class="row justify-content-center py-5 mt-5">
+              <div class="col-md-12 heading-section text-center ftco-animate">
+                <h2 class="mb-4 white--text">Projects</h2>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+                <v-card
+                  :loading="loading"
+                  class="mx-auto my-12"
+                  max-width="374"
+                  color="#385F73"
+                  dark
+                >
+                  <v-card-title>Cafe Badilico</v-card-title>
+
+                  <v-card-text>
+                    <v-row align="center" class="mx-0">
+                      <v-rating
+                        :value="4.5"
+                        color="amber"
+                        dense
+                        half-increments
+                        readonly
+                        size="14"
+                      ></v-rating>
+                    </v-row>
+
+                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+                    <div>
+                      Small plates, salads & sandwiches - an intimate setting
+                      with 12 indoor seats plus patio seating.
+                    </div>
+                  </v-card-text>
+
+                  <v-divider class="mx-4"></v-divider>
+
+                  <v-card-title>Tonight's availability</v-card-title>
+                </v-card>
+
+                <!-- <a href="https://github.com/orun-sunny/BD-CarZ-Client" target="_blank" class="services-1 shadow">
+				
+						<span class="icon">
+							<i class="flaticon-camp"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-4 white--text ">BD-CarZ</h3>
+							<p class="white--text "><strong>React • Bootstrap • MongoDB </strong></p>
+							<p class="white--text ">A website those are want to buy car, they can add to cart,and easy
+								job.It will make life easier <br> Used
+								React along with HTML ,CSS to make the application. MongoDB for the database.
+							</p>
+						</div>
+					</a> -->
+              </div>
+
+              <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+                <v-card
+                  :loading="loading"
+                  class="mx-auto my-12"
+                  max-width="374"
+                  color="#385F73"
+                  dark
+                >
+                  <v-card-title>Cafe Badilico</v-card-title>
+
+                  <v-card-text>
+                    <v-row align="center" class="mx-0">
+                      <v-rating
+                        :value="4.5"
+                        color="amber"
+                        dense
+                        half-increments
+                        readonly
+                        size="14"
+                      ></v-rating>
+                    </v-row>
+
+                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+                    <div>
+                      Small plates, salads & sandwiches - an intimate setting
+                      with 12 indoor seats plus patio seating.
+                    </div>
+                  </v-card-text>
+
+                  <v-divider class="mx-4"></v-divider>
+
+                  <v-card-title>Tonight's availability</v-card-title>
+                </v-card>
+                <!-- <a href="https://github.com/orun-sunny/health-care" target="_blank" class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-stethoscope"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-4 white--text">Online Health Care</h3>
+							<p class="white--text "><strong>React • Bootstrap</strong></p>
+							<p class="white--text ">private/protected routes are use with firebase Authentication,Here you can make an
+								Appointment
+								interactivity.
+							</p>
+						</div>
+
+					</a> -->
+              </div>
+              <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+                <v-card
+                  :loading="loading"
+                  class="mx-auto my-12"
+                  max-width="374"
+                  color="#385F73"
+                  dark
+                >
+                  <v-card-title>Cafe Badilico</v-card-title>
+
+                  <v-card-text>
+                    <v-row align="center" class="mx-0">
+                      <v-rating
+                        :value="4.5"
+                        color="amber"
+                        dense
+                        half-increments
+                        readonly
+                        size="14"
+                      ></v-rating>
+                    </v-row>
+
+                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+                    <div>
+                      Small plates, salads & sandwiches - an intimate setting
+                      with 12 indoor seats plus patio seating.
+                    </div>
+                  </v-card-text>
+
+                  <v-divider class="mx-4"></v-divider>
+
+                  <v-card-title>Tonight's availability</v-card-title>
+                </v-card>
+                <!-- <a href="https://github.com/orun-sunny/copa-america" target="_blank" class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-terminal"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-4 white--text">Copa America Frontend</h3>
+							<p class="white--text "><strong>HTML • CSS •Bootstrap </strong></p>
+							<p class="white--text "> A Front page is a compilation of materials that exemplifies your beliefs, skills,
+								qualifications,education, training and experiences. It provides me skills, Confidence.
+							</p>
+						</div>
+					</a> -->
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
+                <v-card
+                  :loading="loading"
+                  class="mx-auto my-12"
+                  max-width="374"
+                  color="#385F73"
+                  dark
+                >
+                  <v-card-title>Cafe Badilico</v-card-title>
+
+                  <v-card-text>
+                    <v-row align="center" class="mx-0">
+                      <v-rating
+                        :value="4.5"
+                        color="amber"
+                        dense
+                        half-increments
+                        readonly
+                        size="14"
+                      ></v-rating>
+                    </v-row>
+
+                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+                    <div>
+                      Small plates, salads & sandwiches - an intimate setting
+                      with 12 indoor seats plus patio seating.
+                    </div>
+                  </v-card-text>
+
+                  <v-divider class="mx-4"></v-divider>
+
+                  <v-card-title>Tonight's availability</v-card-title>
+                </v-card>
+
+                <!-- <a href="https://github.com/orun-sunny/tourism-web-client" target="_blank"
+						class="services-1 shadow">
+						<span class="icon">
+							<i class="icon-paper-plane"></i>
+						</span>
+						<div class="desc">
+							<h3 class="mb-4 white--text">Tourism </h3>
+							<p class="white--text "><strong>React •NodeJS • MongoDB</strong></p>
+							<p class="white--text "> It has an admin dashboard and functionality like adding or deleting packages. Anyone
+								Can order a package and Handel own order from booking page. Authentication Added.</p>
+						</div>
+					</a> -->
+              </div>
+              <div class="col-md-4 text-center d-flex ftco-animate">
+                <v-card
+                  :loading="loading"
+                  class="mx-auto my-12"
+                  max-width="374"
+                  color="#385F73"
+                  dark
+                >
+                  <v-card-title>Cafe Badilico</v-card-title>
+
+                  <v-card-text>
+                    <v-row align="center" class="mx-0">
+                      <v-rating
+                        :value="4.5"
+                        color="amber"
+                        dense
+                        half-increments
+                        readonly
+                        size="14"
+                      ></v-rating>
+                    </v-row>
+
+                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+
+                    <div>
+                      Small plates, salads & sandwiches - an intimate setting
+                      with 12 indoor seats plus patio seating.
+                    </div>
+                  </v-card-text>
+
+                  <v-divider class="mx-4"></v-divider>
+
+                  <v-card-title>Tonight's availability</v-card-title>
+                </v-card>
+
+                <!-- <a
+                  href="https://github.com/orun-sunny/Gym-frontend "
+                  target="_blank"
+                  class="services-1 shadow"
+                >
+                  <span class="icon">
+                    <i class="flaticon-circuit-board"></i>
+                  </span>
+
+                  <div class="desc">
+                    <h3 class="mb-4 white--text">Gym-Frontend</h3>
+                    <p class="white--text"><strong>Html •ReactJS </strong></p>
+                    <p class="white--text">
+                      Fronted responsive Page developed with Bootstrap, HTML,
+                      CSS and deployed GitHub.
+                    </p>
+                  </div>
+                </a> -->
+              </div>
+              <div class="col-md-4 text-center d-flex ftco-animate">
+                <a
+                  href="https://github.com/orun-sunny/onlinemedical"
+                  target="_blank"
+                  class="services-1 shadow"
+                >
+                  <span class="icon">
+                    <i class="flaticon-bomberman"></i>
+                  </span>
+
+                  <div class="desc">
+                    <h3 class="mb-4 white--text">online Counseling</h3>
+                    <p class="white--text">
+                      <strong>Python • Django •sqlite3 </strong>
+                    </p>
+                    <p class="white--text">
+                      A web based application that allows user to take medical
+                      service own.<br />Used Python along with Django to make
+                      the application. sqlite3 for the database. <br />(Team
+                      Project -3rd year)
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- </div> -->
+        </section>
+
+        <!-- <v-card
+  
+    :loading="loading"
+    class="mx-auto my-12"
+    max-width="374"
+     color="#385F73"
+            dark
+  >
+ 
+  
+
+    <v-card-title>Cafe Badilico</v-card-title>
+
+    <v-card-text>
+      <v-row
+        align="center"
+        class="mx-0"
+      >
+        <v-rating
+          :value="4.5"
+          color="amber"
+          dense
+          half-increments
+          readonly
+          size="14"
+        ></v-rating>
+
+       
+      </v-row>
+
+      <div class="my-4 text-subtitle-1">
+        $ • Italian, Cafe
+      </div>
+
+      <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+    </v-card-text>
+
+    <v-divider class="mx-4"></v-divider>
+
+    <v-card-title>Tonight's availability</v-card-title>
+
+ 
+
+    
+  </v-card>
+ -->
+
+        <!-- I will try -->
+
+        <v-col md="6" offset-md="3" id="about">
           <h4 class="white--text">FEATURED PROJECTS</h4>
           <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
         </v-col>
@@ -232,9 +587,7 @@
               </v-row>
             </div>
           </div>
-          <v-toolbar class="topTolbar" color="#111111" dark flat>
-    
-          </v-toolbar>
+          <v-toolbar class="topTolbar" color="#111111" dark flat> </v-toolbar>
         </v-col>
       </v-row>
     </v-container>
@@ -307,7 +660,7 @@ export default {
   background-color: #1e1e1e;
 }
 .bgColor2 {
-  background-color: #ce1d2a;
+  background-color: #ff8f00;
 }
 
 .child1 {

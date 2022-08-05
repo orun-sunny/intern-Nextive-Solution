@@ -143,23 +143,26 @@
 
         <!-- projects -->
 
-        <section class="ftco-section" id="project-section">
+        <section
+          class="ftco-section justify-content-center"
+          id="project-section"
+        >
           <div class="container-fluid px-md-5">
             <div class="row justify-content-center py-5 mt-5">
               <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mb-4 white--text">Projects</h2>
+                <h2 class="mt-8 white--text">Projects</h2>
               </div>
             </div>
-            <div class="row">
+            <div class="row mx-auto my-15 ml-15 second">
               <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
                 <v-card
                   :loading="loading"
-                  class="mx-auto my-12"
+                  class="mx-auto my-15"
                   max-width="374"
                   color="#385F73"
                   dark
                 >
-                  <v-card-title>Cafe Badilico</v-card-title>
+                  <v-card-title>BD-CarZ</v-card-title>
 
                   <v-card-text>
                     <v-row align="center" class="mx-0">
@@ -173,33 +176,33 @@
                       ></v-rating>
                     </v-row>
 
-                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
-
-                    <div>
-                      Small plates, salads & sandwiches - an intimate setting
-                      with 12 indoor seats plus patio seating.
-                    </div>
+                    <a
+                      href="https://github.com/orun-sunny/BD-CarZ-Client"
+                      target="_blank"
+                      class="services-1 shadow"
+                    >
+                      <span class="icon">
+                        <i class="flaticon-camp"></i>
+                      </span>
+                      <div class="desc">
+                        <h3 class="mb-4 white--text">BD-CarZ</h3>
+                        <p class="white--text">
+                          <strong>React • Bootstrap • MongoDB </strong>
+                        </p>
+                        <p class="white--text">
+                          A website those are want to buy car, they can add to
+                          cart,and easy job.It will make life easier <br />
+                          Used React along with HTML ,CSS to make the
+                          application. MongoDB for the database.
+                        </p>
+                      </div>
+                    </a>
                   </v-card-text>
 
                   <v-divider class="mx-4"></v-divider>
 
-                  <v-card-title>Tonight's availability</v-card-title>
+                  <v-card-title></v-card-title>
                 </v-card>
-
-                <!-- <a href="https://github.com/orun-sunny/BD-CarZ-Client" target="_blank" class="services-1 shadow">
-				
-						<span class="icon">
-							<i class="flaticon-camp"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-4 white--text ">BD-CarZ</h3>
-							<p class="white--text "><strong>React • Bootstrap • MongoDB </strong></p>
-							<p class="white--text ">A website those are want to buy car, they can add to cart,and easy
-								job.It will make life easier <br> Used
-								React along with HTML ,CSS to make the application. MongoDB for the database.
-							</p>
-						</div>
-					</a> -->
               </div>
 
               <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
@@ -210,7 +213,7 @@
                   color="#385F73"
                   dark
                 >
-                  <v-card-title>Cafe Badilico</v-card-title>
+                  <v-card-title>Online healthcare</v-card-title>
 
                   <v-card-text>
                     <v-row align="center" class="mx-0">
@@ -224,32 +227,30 @@
                       ></v-rating>
                     </v-row>
 
-                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
-
-                    <div>
-                      Small plates, salads & sandwiches - an intimate setting
-                      with 12 indoor seats plus patio seating.
-                    </div>
+                    <a
+                      href="https://github.com/orun-sunny/health-care"
+                      target="_blank"
+                      class="services-1 shadow"
+                    >
+                      <span class="icon">
+                        <i class="icon-stethoscope"></i>
+                      </span>
+                      <div class="desc">
+                        <h3 class="mb-4 white--text">Online Health Care</h3>
+                        <p class="white--text">
+                          <strong>React • Bootstrap</strong>
+                        </p>
+                        <p class="white--text">
+                          private/protected routes are use with firebase
+                          Authentication,Here you can make an Appointment
+                          interactivity.
+                        </p>
+                      </div>
+                    </a>
                   </v-card-text>
 
                   <v-divider class="mx-4"></v-divider>
-
-                  <v-card-title>Tonight's availability</v-card-title>
                 </v-card>
-                <!-- <a href="https://github.com/orun-sunny/health-care" target="_blank" class="services-1 shadow">
-						<span class="icon">
-							<i class="icon-stethoscope"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-4 white--text">Online Health Care</h3>
-							<p class="white--text "><strong>React • Bootstrap</strong></p>
-							<p class="white--text ">private/protected routes are use with firebase Authentication,Here you can make an
-								Appointment
-								interactivity.
-							</p>
-						</div>
-
-					</a> -->
               </div>
               <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
                 <v-card
@@ -259,7 +260,7 @@
                   color="#385F73"
                   dark
                 >
-                  <v-card-title>Cafe Badilico</v-card-title>
+                  <v-card-title>Copa America Frontend</v-card-title>
 
                   <v-card-text>
                     <v-row align="center" class="mx-0">
@@ -273,34 +274,35 @@
                       ></v-rating>
                     </v-row>
 
-                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
-
-                    <div>
-                      Small plates, salads & sandwiches - an intimate setting
-                      with 12 indoor seats plus patio seating.
-                    </div>
+                    <a
+                      href="https://github.com/orun-sunny/copa-america"
+                      target="_blank"
+                      class="services-1 shadow"
+                    >
+                      <span class="icon">
+                        <i class="icon-terminal"></i>
+                      </span>
+                      <div class="desc">
+                        <h3 class="mb-4 white--text">Copa America Frontend</h3>
+                        <p class="white--text">
+                          <strong>HTML • CSS •Bootstrap </strong>
+                        </p>
+                        <p class="white--text">
+                          A Front page is a compilation of materials that
+                          exemplifies your beliefs, skills,
+                          qualifications,education, training and experiences. It
+                          provides me skills, Confidence.
+                        </p>
+                      </div>
+                    </a>
                   </v-card-text>
 
                   <v-divider class="mx-4"></v-divider>
-
-                  <v-card-title>Tonight's availability</v-card-title>
                 </v-card>
-                <!-- <a href="https://github.com/orun-sunny/copa-america" target="_blank" class="services-1 shadow">
-						<span class="icon">
-							<i class="icon-terminal"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-4 white--text">Copa America Frontend</h3>
-							<p class="white--text "><strong>HTML • CSS •Bootstrap </strong></p>
-							<p class="white--text "> A Front page is a compilation of materials that exemplifies your beliefs, skills,
-								qualifications,education, training and experiences. It provides me skills, Confidence.
-							</p>
-						</div>
-					</a> -->
               </div>
             </div>
 
-            <div class="row">
+            <div class="row ml-16 mr-16 second">
               <div class="col-md-4 text-center d-flex mx-auto ftco-animate">
                 <v-card
                   :loading="loading"
@@ -309,7 +311,7 @@
                   color="#385F73"
                   dark
                 >
-                  <v-card-title>Cafe Badilico</v-card-title>
+                  <v-card-title>Tourism</v-card-title>
 
                   <v-card-text>
                     <v-row align="center" class="mx-0">
@@ -323,31 +325,31 @@
                       ></v-rating>
                     </v-row>
 
-                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
-
-                    <div>
-                      Small plates, salads & sandwiches - an intimate setting
-                      with 12 indoor seats plus patio seating.
-                    </div>
+                    <a
+                      href="https://github.com/orun-sunny/tourism-web-client"
+                      target="_blank"
+                      class="services-1 shadow"
+                    >
+                      <span class="icon">
+                        <i class="icon-paper-plane"></i>
+                      </span>
+                      <div class="desc">
+                        <h3 class="mb-4 white--text">Tourism</h3>
+                        <p class="white--text">
+                          <strong>React •NodeJS • MongoDB</strong>
+                        </p>
+                        <p class="white--text">
+                          It has an admin dashboard and functionality like
+                          adding or deleting packages. Anyone Can order a
+                          package and Handel own order from booking page.
+                          Authentication Added.
+                        </p>
+                      </div>
+                    </a>
                   </v-card-text>
 
                   <v-divider class="mx-4"></v-divider>
-
-                  <v-card-title>Tonight's availability</v-card-title>
                 </v-card>
-
-                <!-- <a href="https://github.com/orun-sunny/tourism-web-client" target="_blank"
-						class="services-1 shadow">
-						<span class="icon">
-							<i class="icon-paper-plane"></i>
-						</span>
-						<div class="desc">
-							<h3 class="mb-4 white--text">Tourism </h3>
-							<p class="white--text "><strong>React •NodeJS • MongoDB</strong></p>
-							<p class="white--text "> It has an admin dashboard and functionality like adding or deleting packages. Anyone
-								Can order a package and Handel own order from booking page. Authentication Added.</p>
-						</div>
-					</a> -->
               </div>
               <div class="col-md-4 text-center d-flex ftco-animate">
                 <v-card
@@ -357,7 +359,7 @@
                   color="#385F73"
                   dark
                 >
-                  <v-card-title>Cafe Badilico</v-card-title>
+                  <v-card-title>Gym-Frontend</v-card-title>
 
                   <v-card-text>
                     <v-row align="center" class="mx-0">
@@ -371,61 +373,79 @@
                       ></v-rating>
                     </v-row>
 
-                    <div class="my-4 text-subtitle-1">$ • Italian, Cafe</div>
+                    <a
+                      href="https://github.com/orun-sunny/Gym-frontend "
+                      target="_blank"
+                      class="services-1 shadow"
+                    >
+                      <span class="icon">
+                        <i class="flaticon-circuit-board"></i>
+                      </span>
 
-                    <div>
-                      Small plates, salads & sandwiches - an intimate setting
-                      with 12 indoor seats plus patio seating.
-                    </div>
+                      <div class="desc">
+                        <h3 class="mb-4 white--text">Gym-Frontend</h3>
+                        <p class="white--text">
+                          <strong>Html •ReactJS </strong>
+                        </p>
+                        <p class="white--text">
+                          Fronted responsive Page developed with Bootstrap,
+                          HTML, CSS and deployed GitHub.
+                        </p>
+                      </div>
+                    </a>
                   </v-card-text>
 
                   <v-divider class="mx-4"></v-divider>
-
-                  <v-card-title>Tonight's availability</v-card-title>
                 </v-card>
-
-                <!-- <a
-                  href="https://github.com/orun-sunny/Gym-frontend "
-                  target="_blank"
-                  class="services-1 shadow"
-                >
-                  <span class="icon">
-                    <i class="flaticon-circuit-board"></i>
-                  </span>
-
-                  <div class="desc">
-                    <h3 class="mb-4 white--text">Gym-Frontend</h3>
-                    <p class="white--text"><strong>Html •ReactJS </strong></p>
-                    <p class="white--text">
-                      Fronted responsive Page developed with Bootstrap, HTML,
-                      CSS and deployed GitHub.
-                    </p>
-                  </div>
-                </a> -->
               </div>
               <div class="col-md-4 text-center d-flex ftco-animate">
-                <a
-                  href="https://github.com/orun-sunny/onlinemedical"
-                  target="_blank"
-                  class="services-1 shadow"
+                <v-card
+                  :loading="loading"
+                  class="mx-auto my-12"
+                  max-width="374"
+                  color="#385F73"
+                  dark
                 >
-                  <span class="icon">
-                    <i class="flaticon-bomberman"></i>
-                  </span>
+                  <v-card-title>Gym-Frontend</v-card-title>
 
-                  <div class="desc">
-                    <h3 class="mb-4 white--text">online Counseling</h3>
-                    <p class="white--text">
-                      <strong>Python • Django •sqlite3 </strong>
-                    </p>
-                    <p class="white--text">
-                      A web based application that allows user to take medical
-                      service own.<br />Used Python along with Django to make
-                      the application. sqlite3 for the database. <br />(Team
-                      Project -3rd year)
-                    </p>
-                  </div>
-                </a>
+                  <v-card-text>
+                    <v-row align="center" class="mx-0">
+                      <v-rating
+                        :value="4.5"
+                        color="amber"
+                        dense
+                        half-increments
+                        readonly
+                        size="14"
+                      ></v-rating>
+                    </v-row>
+
+                    <a
+                      href="https://github.com/orun-sunny/onlinemedical"
+                      target="_blank"
+                      class="services-1 shadow"
+                    >
+                      <span class="icon">
+                        <i class="flaticon-bomberman"></i>
+                      </span>
+
+                      <div class="desc">
+                        <h3 class="mb-4 white--text">online Counseling</h3>
+                        <p class="white--text">
+                          <strong>Python • Django •sqlite3 </strong>
+                        </p>
+                        <p class="white--text">
+                          A web based application that allows user to take
+                          medical service own.<br />Used Python along with
+                          Django to make the application. sqlite3 for the
+                          database. <br />(Team Project -3rd year)
+                        </p>
+                      </div>
+                    </a>
+                  </v-card-text>
+
+                  <v-divider class="mx-4"></v-divider>
+                </v-card>
               </div>
             </div>
           </div>
@@ -433,156 +453,31 @@
           <!-- </div> -->
         </section>
 
-        <!-- <v-card
-  
-    :loading="loading"
-    class="mx-auto my-12"
-    max-width="374"
-     color="#385F73"
-            dark
-  >
- 
-  
-
-    <v-card-title>Cafe Badilico</v-card-title>
-
-    <v-card-text>
-      <v-row
-        align="center"
-        class="mx-0"
-      >
-        <v-rating
-          :value="4.5"
-          color="amber"
-          dense
-          half-increments
-          readonly
-          size="14"
-        ></v-rating>
-
-       
-      </v-row>
-
-      <div class="my-4 text-subtitle-1">
-        $ • Italian, Cafe
-      </div>
-
-      <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
-    </v-card-text>
-
-    <v-divider class="mx-4"></v-divider>
-
-    <v-card-title>Tonight's availability</v-card-title>
-
- 
-
-    
-  </v-card>
- -->
-
         <!-- I will try -->
 
-        <v-col md="6" offset-md="3" id="about">
-          <h4 class="white--text">FEATURED PROJECTS</h4>
-          <p class="grey--text">Lorem ipsum dolor Lorem ipsum dolor</p>
-        </v-col>
-        <v-col md="3" class="text-end">
-          <v-btn tile color="#A7121D" dark> View All </v-btn>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-card
-            class="pa-2 py-12"
-            outlined
-            tile
-            height="250px"
-            color="#1E1E1E"
-          >
-            <v-img src="3.png" contain max-height=""></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3">
-          <v-card
-            class="pa-2 py-12"
-            outlined
-            tile
-            height="250px"
-            color="#1E1E1E"
-          >
-            <v-img src="2.png" contain max-height=""></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> The Vintage </v-btn
-          ><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Foodasa </v-btn><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-card
-            class="pa-2 py-12"
-            outlined
-            tile
-            height="250px"
-            color="#1E1E1E"
-          >
-            <v-img src="4.png" contain max-height=""></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3">
-          <v-card
-            class="pa-2 py-12"
-            outlined
-            tile
-            height="250px"
-            color="#1E1E1E"
-          >
-            <v-img src="5.png" contain max-height=""></v-img>
-          </v-card>
-        </v-col>
-        <v-col md="3" offset-md="3">
-          <v-btn color="white" dark text class="ml-n4"> AAE IdeaPro </v-btn
-          ><br />
-
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col md="3">
-          <v-btn color="white" dark text class="ml-n4"> Mozaik </v-btn><br />
-          <v-btn color="#A7121D" dark text class="ml-n4">
-            know more
-            <v-icon right>mdi-arrow-right</v-icon>
-          </v-btn>
-        </v-col>
-        <v-col cols="12" class="padd topInverse">
+        <v-col cols="12">
           <div class="second">
             <div class="secondchild1" id="contact">
               <v-row>
-                <v-col cols="7">
-                  <h1 class="white--text">
-                    Let's work together on<br />your next project
-                  </h1>
-                  <p class="grey--text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Eius nesciunt ducimus natus <br />
-                  </p>
-                </v-col>
-                <v-col cols="5">
-                  <v-btn tile color="#A7121D" dark class="mt-16">
-                    Contact
-                  </v-btn>
+                <v-col cols="12">
+                  <div class="row justify-content-center">
+                    <div class="col-md-8 ftco-animate text-center">
+                      <h2 class="orange--text">
+                        I'm <span>Available</span> for Hire
+                      </h2>
+                      <!-- <p class="mb-0">I am looking for opportunities in<br>Software Development • Software Engineering • Web Development</p> -->
+
+                      <!-- <a href="resume/.pdf" target="_blank" class="btn btn-primary py-3 px-5">Hire me</a> -->
+                      <v-btn>
+                        <a
+                          id="fiverr"
+                          href="https://www.fiverr.com/orun_sunny?up_rollout=true"
+                          target="_blank"
+                          >Fiverr</a
+                        >
+                      </v-btn>
+                    </div>
+                  </div>
                 </v-col>
               </v-row>
             </div>
@@ -618,7 +513,7 @@ export default {
   margin-top: -250px;
 }
 .topTolbar {
-  margin-top: 100px;
+  margin-top: 200px;
   text-align: center;
 }
 .first {
@@ -639,17 +534,21 @@ export default {
   height: 400px;
   background: #181818;
   text-align: center;
-  padding: 2rem 2rem;
+  padding: 8rem 8rem;
 }
 .secondchild1 {
+  text-decoration: none;
   display: inline-block;
   background-color: #1e1e1e;
-  padding: 2rem 1rem;
+  padding: 8rem 8rem;
+  padding-top: 50px;
   vertical-align: middle;
   text-align: left;
-  margin-top: 250px;
+  margin-top: 200px;
+  /* margin-bottom: 50px; */
 }
 .child {
+  text-decoration: none;
   display: inline-block;
   padding: 2rem 1rem;
   vertical-align: middle;
@@ -694,5 +593,8 @@ export default {
 h1.number {
   font-size: 50px;
   font-weight: bold;
+}
+#project-section {
+  align-items: center;
 }
 </style>

@@ -3,7 +3,17 @@
 ## Project setup
 ```
 npm install
+
+
+
+
 ```
+##Single Page Application (SPA)
+##Use an UI library(vuetify)
+##Deployed My website to a web server (vercel)
+
+
+
 
 ### Compiles and hot-reloads for development
 ```

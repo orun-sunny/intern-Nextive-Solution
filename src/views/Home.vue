@@ -149,7 +149,7 @@
         >
           <div class="container-fluid px-md-5">
             <div class="row justify-content-center py-5 mt-5">
-              <div class="col-md-12 heading-section text-center ftco-animate">
+              <div class="col-md-12 col-xs-6 heading-section text-center ftco-animate">
                 <h2 class="mt-16 white--text">Projects</h2>
               </div>
             </div>

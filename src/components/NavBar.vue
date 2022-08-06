@@ -1,7 +1,7 @@
 <template>
   <v-app-bar app color="#111111" dark flat class="px-8">
-    <v-btn icon>
-      <v-icon color="#A7121D">sunny</v-icon>
+    <v-btn icon> 
+      <v-img class="navbar-brand orange darken-1 p-5 " back="#FF8F00" href="index.html">Orun </v-img>
     </v-btn>
 
     <!-- <v-spacer></v-spacer> -->

@@ -150,7 +150,7 @@
           <div class="container-fluid px-md-5">
             <div class="row justify-content-center py-5 mt-5">
               <div class="col-md-12 heading-section text-center ftco-animate">
-                <h2 class="mt-8 white--text">Projects</h2>
+                <h2 class="mt-16 white--text">Projects</h2>
               </div>
             </div>
             <div class="row mx-auto my-15 ml-15 second">
